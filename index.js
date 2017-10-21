@@ -3,5 +3,9 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  return document.querySelector('#app .unranked-list')
+  return document.querySelector('#nested .target')
+}
+
+function increaseRankBy(n) {
+  return document.querySelector('.ranked-list').parseInt + 'n'
 }
